@@ -1,0 +1,113 @@
+.beranda-pinjam-dan-anggota-child,
+.beranda-pinjam-dan-anggota-item {
+  position: absolute;
+  top: 335px;
+  left: 283px;
+  background-color: var(--color-white);
+  width: 292px;
+  height: 354px;
+  cursor: pointer;
+}
+.beranda-pinjam-dan-anggota-item {
+  left: 839px;
+}
+.pay-1-icon {
+  position: absolute;
+  top: 416px;
+  left: 370px;
+  width: 119px;
+  height: 121px;
+  object-fit: cover;
+}
+.pinjam-uang {
+  position: absolute;
+  top: 583px;
+  left: 338px;
+  font-family: var(--font-lao-muang-khong);
+}
+.wallet-1-icon {
+  position: absolute;
+  top: 431px;
+  left: 848px;
+  width: 110px;
+  height: 111px;
+  object-fit: cover;
+}
+.credit-anggota {
+  position: absolute;
+  top: 583px;
+  left: 880px;
+  font-family: var(--font-lao-muang-khong);
+  text-align: center;
+}
+.people-1-1 {
+  position: absolute;
+  top: 420px;
+  left: 997px;
+  width: 116px;
+  height: 114px;
+  object-fit: cover;
+}
+.next-page {
+  position: relative;
+}
+.container,
+.next-page-wrapper,
+.wrapper {
+  position: absolute;
+  top: 940px;
+  left: 528px;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+}
+.container,
+.wrapper {
+  left: 707px;
+  width: 63px;
+  flex-direction: column;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.container {
+  left: 850px;
+}
+.cooperation-1-icon,
+.next-2-icon {
+  position: absolute;
+  top: 945px;
+  left: 782px;
+  width: 43px;
+  height: 45px;
+  object-fit: cover;
+}
+.cooperation-1-icon {
+  top: 22px;
+  left: 37px;
+  width: 112px;
+  height: 119px;
+}
+.kopinu {
+  position: absolute;
+  top: 63px;
+  left: 173px;
+  font-size: 48px;
+  font-family: var(--font-joti-one);
+  display: inline-block;
+  width: 335px;
+  height: 37px;
+}
+.beranda-pinjam-dan-anggota {
+  position: relative;
+  background-color: #04faeb;
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-mplus-1p-bold);
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="simpan.css" />
+    <link rel="stylesheet" href="simpan.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=PT Sans Narrow:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open Sans:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Joti One:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="beranda-pinjam-dan-anggota">
+      <div class="beranda-pinjam-dan-anggota-child" id="rectangle"></div>
+      <div class="beranda-pinjam-dan-anggota-item" id="rectangle1"></div>
+      <img class="pay-1-icon" alt="" src="pay.png" />
+
+      <div class="pinjam-uang">PINJAM UANG</div>
+      <img class="wallet-1-icon" alt="" src="wallet.png" />
+
+      <div class="credit-anggota">CREDIT & ANGGOTA</div>
+      <img class="people-1-1" alt="" src="people (1).png" />
+
+      <div class="next-page-wrapper">
+        <b class="next-page">NEXT PAGE</b>
+      </div>
+      <div class="wrapper" id="frameContainer1">
+        <b class="next-page">1</b>
+      </div>
+      <div class="container" id="frameContainer2">
+        <b class="next-page">2</b>
+      </div>
+      <img class="next-2-icon" alt="" src="next (1).png" />
+
+      <img
+        class="cooperation-1-icon"
+        alt=""
+        src="./public/cooperation-1@2x.png"
+      />
+
+      <div class="kopinu">KOPINU</div>
+    </div>
+
+    <script>
+      var rectangle = document.getElementById("rectangle");
+      if (rectangle) {
+        rectangle.addEventListener("click", function (e) {
+          // Please sync "PINJAM UDANG DAN LIST PINJAMAN " to the project
+        });
+      }
+      
+      var rectangle1 = document.getElementById("rectangle1");
+      if (rectangle1) {
+        rectangle1.addEventListener("click", function (e) {
+          // Please sync "BERANDA ANGGOTA DAN MEMBAYAR KREDIT" to the project
+        });
+      }
+      
+      var frameContainer1 = document.getElementById("frameContainer1");
+      if (frameContainer1) {
+        frameContainer1.addEventListener("click", function (e) {
+          // Please sync "BERANDA SIMPANAN " to the project
+        });
+      }
+      
+      var frameContainer2 = document.getElementById("frameContainer2");
+      if (frameContainer2) {
+        frameContainer2.addEventListener("click", function (e) {
+          // Please sync "BERANDA" to the project
+        });
+      }
+      </script>
+  </body>
+</html>
